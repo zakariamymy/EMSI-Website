@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	 <title>EMSI - Ecole Marocaine Des Sciences De L'Ingenieur</title>
+	 <link rel="stylesheet" href="style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" >
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+QLD+Beginner&family=Finlandica:ital@0;1&family=Lato&family=Poppins:wght@200;400;500;700&family=Roboto+Slab:wght@100&family=Splash&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="photos/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close" id="fa" onclick="hideMenu()" aria-hidden="true"></i>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="about.html">A-PROPOS</a></li>
+						<li><a href="course.html">COURS</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" id="fa" onclick="showMenu()" aria-hidden="true"></i>
+		</nav>
+	     <h1>A propos de nous</h1>	 
+	 </section>
+	 
+	 
+<!-----------------------A propos de nous contenu----------------------->
+     <section class="about-us">
+	     <div class="kow">
+		     <div class="about-col">
+			     <h1>Nous sommes la plus grande université du monde</h1>
+		         <p><< Nous voulons contribuer à l’amélioration de l’offre éducative dans notre pays afin d’avoir un impact réel sur notre économie. Nous devons réussir à former un nombre important d’étudiants, c’est pour cette raison qu’après l’exigence de l’excellence académique nous avons une exigence d’accessibilité de nos établissements.<br>
+					Nous sommes aussi conscients que pour réussir il faut continuer à avoir comme préoccupation l’employabilité de nos lauréats. Nous devons anticiper les demandes en compétences de notre économie, tout en étant conscients des limites du marché >>.</p>
+			     <a href="contact.html" class="hero-btn red-btn">EXPLORER MAINTENANT</a>
+			 </div>
+			 <div class="about-col">
+			     <img src="photos/about.png">
+			 </div>
+		 </div>
+	 </section>
+
+	 
+	 
+<!-----------------------Footer----------------------->
+<section class="footer">
+	<h4>A propos de nous</h4>
+	<p>Nous donnons à nos élèves ingénieurs une formation de qualité et des expériences qui les préparent au succès dans leurs carrières.<br>Nous les aidons aussi à découvrir un domaine qui les passionne et à oser le diriger. Nos écoles sont reconnues par l’Etat.</p>
+	<div class="icons">
+		<i class="fa fa-facebook" id="fa"></i>
+		<i class="fa fa-instagram" id="fa"></i>
+		<i class="fa fa-linkedin" id="fa"></i>
+	</div>
+	<p>Made with &nbsp;<i class="fa fa-heart-o" id="ba"></i>&nbsp; by Zakaria Mairy</p>
+</section>
+	
+
+
+<!-----------------------JavaScript pour icone menu------------------> 
+	 <script>
+	     var navLinks = document.getElementById("navLinks");
+		 function showMenu(){
+		 navLinks.style.right="0";
+		 }
+		 function hideMenu(){
+		 navLinks.style.right="-200px";
+		 }
+	 </script>
+</body>
+</html>

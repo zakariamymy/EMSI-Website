@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	 <title>EMSI - Ecole Marocaine Des Sciences De L'Ingenieur</title>
+	 <link rel="stylesheet" href="style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" >
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+QLD+Beginner&family=Finlandica:ital@0;1&family=Lato&family=Poppins:wght@200;400;500;700&family=Roboto+Slab:wght@100&family=Splash&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="photos/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close" id="fa" onclick="hideMenu()" aria-hidden="true"></i>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="about.html">A-PROPOS</a></li>
+						<li><a href="course.html">COURS</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" id="fa" onclick="showMenu()" aria-hidden="true"></i>
+		</nav>
+	     <h1>Contacter nous</h1>	 
+	 </section>
+<!---------------------Contact us---------------------->
+     <section class="location">
+	     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.455488825443!2d-7.67329169228282!3d33.54154006044785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c1926b0ee0c8126!2sEmsi%20Les%20Orangers!5e0!3m2!1sar!2sma!4v1663021121601!5m2!1sar!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	 </section>
+	 <section class="contact-us">
+	     <div class="kow">
+		     <div class="contact-col">
+			 
+			     <div>
+		             <i class="fa fa-home" id="fa"></i>	
+                     <span>
+					     <h5>XYZ RUE, ABC CIVIL</h5>
+						 <p>CASABLANCA, ORNAGERS, IN</p>
+					 </span>					 
+				 </div>
+				 
+				 <div>
+		             <i class="fa fa-phone" id="fa"></i>	
+                     <span>
+					     <h5>06 88 55 22 90</h5>
+						 <p>7 jours sur 7 jours</p>
+					 </span>					 
+				 </div>
+				 
+		         <div>
+		             <i class="fa fa-envelope-o" id="fa"></i>	
+                     <span>
+					     <h5>EMSI@yourwebsite.com</h5>
+						 <p>Laisser nous un message</p>
+					 </span>					 
+				 </div>
+				 
+			 </div>
+			 <div class="contact-col">
+			     <form action="form-handler.php" method="post">
+				     <input type="texte" name="name" placeholder="Entrer votre nom" required>
+				     <input type="email" name="email" placeholder="Entrer votre email" required>
+				     <input type="text"  name="subject" placeholder="Entrer votre sujet" required>
+				     <textarea rows="8"  name="message"placeholder="Message" required></textarea>
+					 <button type="submit" class="hero-btn red-btn">Laisser un message</button>
+				 </form>
+			 </div>
+		 </div>
+	 </section>
+
+	 
+	 
+<!-----------------------Footer----------------------->
+<section class="footer">
+	<h4>A propos de nous</h4>
+	<p>Nous donnons à nos élèves ingénieurs une formation de qualité et des expériences qui les préparent au succès dans leurs carrières.<br>Nous les aidons aussi à découvrir un domaine qui les passionne et à oser le diriger. Nos écoles sont reconnues par l’Etat.</p>
+	<div class="icons">
+		<i class="fa fa-facebook" id="fa"></i>
+		<i class="fa fa-instagram" id="fa"></i>
+		<i class="fa fa-linkedin" id="fa"></i>
+	</div>
+	<p>Made with &nbsp;<i class="fa fa-heart-o" id="ba"></i>&nbsp; by Zakaria Mairy</p>
+</section>
+	
+
+
+<!-----------------------JavaScript pour icone menu------------------> 
+	 <script>
+	     var navLinks = document.getElementById("navLinks");
+		 function showMenu(){
+		 navLinks.style.right="0";
+		 }
+		 function hideMenu(){
+		 navLinks.style.right="-200px";
+		 }
+	 </script>
+</body>
+</html>

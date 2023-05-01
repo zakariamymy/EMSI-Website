@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	 <title>EMSI - Ecole Marocaine Des Sciences De L'Ingenieur</title>
+	 <link rel="stylesheet" href="style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" >
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+QLD+Beginner&family=Finlandica:ital@0;1&family=Lato&family=Poppins:wght@200;400;500;700&family=Roboto+Slab:wght@100&family=Splash&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="photos/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close" id="fa" onclick="hideMenu()" aria-hidden="true"></i>
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="about.html">A-PROPOS</a></li>
+						<li><a href="course.html">COURS</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" id="fa" onclick="showMenu()" aria-hidden="true"></i>
+		</nav>
+	     <h1>Nos diploms & programmes enligne pour 2021</h1>	 
+	 </section>
+	 
+	 
+<!-----------------------Blog page contenu----------------------->
+     <section class="blog-content">
+	     <div class="kow"> 
+		     <div class="blog-left">
+			     <img src="images/certificate.jpg">
+				 <h2>Nos diploms & programmes enligne pour 2021</h2>
+		         <p>Notre vocation est de faire progresser l’enseignement, l’apprentissage et la recherche scientifique dans un environnement de travail dynamique et innovant. Nous nous focalisons sur l’excellence académique en offrons à nos étudiants des cursus de formation diversifiés et pointus selon des standards internationaux. Nous accompagnons tous nos étudiants, du début à la fin pour leur assurer une vie professionnelle épanouie.<br><br> Nous savons que nos étudiants  méritent le choix, et nous leur offrons des programmes et des environnements accueillants et sécurisés, virtuels et physiques, pour l’étude, la recherche, le travail, la réflexion et l’interaction.<br><br> Nous travaillons en partenariat entre nous, avec notre corps enseignant, nos étudiants et nos collègues pour répondre aux besoins de recherche et d’enseignement de notre communauté  pour le présent et l’avenir.  Nous faisons preuve d’une solide éthique de travail, en assumant la responsabilité de nos actes, en tenant notre parole et en respectant nos engagements.<br><br> Notre primauté de ces valeurs fait de nous la grande école marocaine des sciences de l’ingénieur au Maroc.</p>
+		         
+				 <div class="comment-box">
+				     <h3>Laisser un commentaire</h3>
+					 <form class="comment-form">
+					     <input type="text" placeholder="Enter Name">
+					     <input type="email" placeholder="Enter Email">
+						 <textarea rows="5" placeholder="Your Comment"></textarea>
+						 <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				 </div>
+		</div>
+			 <div class="blog-right">
+			     <h3>Poste des filières</h3>
+				 
+				 <div>
+				     <span>INGÉNIERIE INFORMATIQUE ET RÉSEAUX</span>
+				 </div>
+				 <div>
+				     <span>INGÉNIERIE FINANCIÈRE ET AUDIT</span>
+				 </div>
+				 <div>
+				     <span>GÉNIE INDUSTRIEL</span>
+				 </div>
+				 <div>
+				     <span>GÉNIE CIVIL, BÂTIMENTS ET TRAVAUX PUBLICS</span>
+				 </div>
+				 <div>
+				     <span>INGÉNIERIE AUTOMATISMES ET INFORMATIQUE INDUSTRIELLE</span>
+				 </div>
+				 
+			 </div>
+	 </section>
+	 
+	 
+<!-----------------------Footer----------------------->
+<section class="footer">
+	<h4>A propos de nous</h4>
+	<p>Nous donnons à nos élèves ingénieurs une formation de qualité et des expériences qui les préparent au succès dans leurs carrières.<br>Nous les aidons aussi à découvrir un domaine qui les passionne et à oser le diriger. Nos écoles sont reconnues par l’Etat.</p>
+	<div class="icons">
+		<i class="fa fa-facebook" id="fa"></i>
+		<i class="fa fa-instagram" id="fa"></i>
+		<i class="fa fa-linkedin" id="fa"></i>
+	</div>
+	<p>Made with &nbsp;<i class="fa fa-heart-o" id="ba"></i>&nbsp; by Zakaria Mairy</p>
+</section>
+	
+
+
+<!-----------------------JavaScript pour icone menu------------------> 
+	 <script>
+	     var navLinks = document.getElementById("navLinks");
+		 function showMenu(){
+		 navLinks.style.right="0";
+		 }
+		 function hideMenu(){
+		 navLinks.style.right="-200px";
+		 }
+	 </script>
+</body>
+</html>
